@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+display: flex;
+align-items: center;
+min-height: 100vh;
+background-color: #131f33;
+}
+img{
+    max-width: 330px;
+    height: 560px;
+    border: 5px solid rgb(226, 24, 58);
+    box-shadow: 10px 10px 10px;
+    margin-left: 20px;
+    float: left;
+}
+.about{
+    margin-top: 220px;
+    margin-left: 400px;
+}
+.about h3{
+    text-align:center;
+    font-size: 50px;
+    font-style: oblique;
+    color: aliceblue;
+    border: 5px 10px solid red;
+
+}
+.about p{
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.about a{
+   background: orangered;
+   color: #fff;
+   display: inline-block;
+   padding: 5px 10px;
+   margin-top: 20px;
+   
+}
